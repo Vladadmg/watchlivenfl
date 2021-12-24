@@ -1,0 +1,152 @@
+/** aMember-specific styles here */
+
+/* properties for entire page and text inside tables */
+body .amember , .amember th, .amember td {
+    font-family: Verdana, "Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
+    font-size: 16px;
+}
+/* properties for all input elements */
+.amember input, .amember  textarea {
+    font-family: Verdana, "Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
+    font-size: 1em;
+}
+.amember hr { 
+    background-color: #4479BE;
+    border: 0;
+    width: 100%;
+    height: 1px;
+}
+.amember ul, .amember li { list-style: disc; }
+.small { font-size: x-small; font-weight: normal; }
+.powered, .powered a { font-size: x-small; color: #808080; margin: 0.5em 0em 0.5em 0em; }
+strong, .strong { font-weight: bold; }
+.text_disabled { color: ButtonFace; } 
+
+/* properties for headers */
+.amember h1,.amember h2,.amember h3 {
+    color: #707070;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+}
+.amember h1 { font-size: 140%; }
+.amember h2 { font-size: 130%; }
+.amember h3 { font-size: 120%; }
+
+/* other elements */
+.amember div.centered { text-align: center; }
+.amember div.centered table {
+    margin: 0 auto; 
+    text-align: left;
+}
+.amember ul,.amember ol { margin-left: 2em;}
+.amember .code { font-family: "Courier New", Monospace; font-size: 120%; color: blue; } 
+
+/* vedit - vertical table (signup, profile edit) */
+.amember .vedit {
+    border: solid 1px #8CACBB;
+width:auto;
+}
+/* vedit - usual column (right) */
+.amember .vedit td {
+    text-align: left;
+    vertical-align: middle;
+    padding: 3px 2px 2px 2px;
+
+    background-color: white;
+    border: solid 1px #8CACBB;
+}
+/* vedit - header column (left) */
+.vedit th {
+    padding: 2px 3px 2px 2px;
+    text-align: right;
+    vertical-align: middle;
+    font-weight: bold;
+
+    background-color: #DEE7EC;
+    border: solid 1px #8CACBB;
+}
+/* vedit - heading row */
+.vedit .headrow { font-weight: bold; text-align: center; }
+
+
+/* hedit - horizontal table (payments list) */
+.hedit {
+    border: solid 1px #8CACBB;
+}
+/* hedit - usual column */
+.hedit td {
+    padding: 5px;
+    background-color: #E0E0E0;
+    font-size: 8pt;
+    background-color: white;
+    border: solid 1px #8CACBB;
+}
+/* hedit - header column */
+.hedit th {
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+
+    background-color: #DEE7EC;
+    border: solid 1px #8CACBB;
+}
+
+.amember table.errmsg
+{
+    font-family: Helvetica, Verdana, sans-serif;
+    font-size: 90%;
+    background-color: red;
+    border: #cc0000 1px solid;
+    margin: 5px 0px 5px 0px;
+}
+.amember table.errmsg td
+{
+    padding: 5px 50px 5px 5px;
+    font-weight: bold;
+}
+.amember table.errmsg td li
+{
+    list-style: square;
+}
+
+/* Receipt table from thanks.html */
+.amember .receipt td {
+    background-color: #F0F0F0;
+    border: solid 1px black;
+    padding: 2px 4px 2px 4px;
+}
+.amember .receipt th {
+    background-color: #C0C0C0;
+    border: solid 1px black;
+    font-weight: bold;
+    padding: 2px 4px 2px 4px;
+}
+.amember .receipt td.total {
+    background-color: #C0C0C0;
+    border: solid 1px black;
+}
+.amember .receipt {
+    border-collapse: collapse;
+}
+
+/* Newsletters table on member.php */
+.amember .newsletters td {
+    padding: 5px;
+    margin: 5px;
+}
+.amember .newsletters td.disabled {
+    padding: 5px;
+    margin: 5px;
+    color: #505050;
+}
+
+/* Newsletters archive table on member.php */
+.amember .newsletters_archive td {
+    padding: 2px;
+    margin: 0px;
+}
+.amember table td.signupfixtures
+{
+	width:300px !important;
+}
